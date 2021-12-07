@@ -1,10 +1,10 @@
-const toggleBtn = document.querySelector(".contents-title__button");
-const titlehidden = document.querySelector(".contents-title");
+const toggleBtn = document.querySelector(".contents-titleandbutton .contents-title__button");
+const titlehidden = document.querySelector(".contents-titleandbutton .contents-title");
 
-toggleBtn.addEventListener("click", (event)=>{
-    titlehidden.classList.toggle("hidden")
+toggleBtn.addEventListener("click", () => {
+    titlehidden.classList.toggle("hidden");
     toggleBtn.classList.toggle("clicked");
-})
+});
 
 
 const tag1 = document.getElementById("#IU");
