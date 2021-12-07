@@ -1,0 +1,117 @@
+.contents {
+  margin: 0 30px;
+}
+
+.contents-tag {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.contents-tag li {
+  padding: 8px 12px;
+  font-weight: 500;
+}
+.contents-tag li a {
+  color: blue;
+}
+.contents-titleandbutton {
+  display: flex;
+}
+.contents-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+.hidden {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.contents-up .contents-title__button {
+  border: none;
+  height: 100%;
+  background-color: whitesmoke;
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+}
+
+.clicked {
+  transform: rotate(180deg);
+}
+
+.contents-detail {
+  color: var(--gray-color);
+  margin: 15px 0;
+}
+.contents-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray-color);
+  padding: 0;
+  margin: 0 50px;
+}
+
+.contents-icons li:first-child button i {
+  color: blue;
+}
+.contents-icons span {
+  font-size: 20px;
+}
+
+.contents-icons button {
+  border: none;
+  background-color: whitesmoke;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contents-profile {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+.contents-profile__title {
+  margin-left: 15px;
+}
+
+.contents-profile__title h4 {
+  font-size: 18px;
+  margin: 15px 0;
+  color: black;
+}
+.contents-profile__title h6 {
+  font-size: 15px;
+  color: var(--gray-color);
+  margin: 15px 0;
+}
+.contents-profile__photo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.contents-profile__column:first-child {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.contents-profile .contents-profile__column:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contents-profile__column:last-child .contents-subscribe button {
+  color: red;
+  font-weight: 600;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
